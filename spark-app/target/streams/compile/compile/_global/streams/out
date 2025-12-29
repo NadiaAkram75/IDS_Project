@@ -1,0 +1,10 @@
+[error] /app/src/main/scala/IDSPipeline.scala:1:1: expected class or object definition
+[error] val spark = SparkSession.builder()
+[error] ^
+[error] /app/src/main/scala/IDSPipeline.scala:13:1: expected class or object definition
+[error] val model = PipelineModel.load("s3a://ids-bucket/models/rf")
+[error] ^
+[error] /app/src/main/scala/IDSPipeline.scala:15:1: expected class or object definition
+[error] val predictionQuery = predictions
+[error] ^
+[error] three errors found
